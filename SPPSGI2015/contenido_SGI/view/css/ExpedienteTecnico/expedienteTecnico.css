@@ -1,0 +1,19 @@
+.rowConvenio > td{
+    background-color: #ffffcc !important;
+}
+
+.rowConvenio:hover > td{
+    background-color: #F5F5F5 !important;
+}
+
+.rowConvenioReduccion > td{
+    background-color: #ffe1d9 !important;
+}
+
+.rowConvenioReduccion:hover > td{
+    background-color: #F5F5F5 !important;
+}
+
+.numero2,.number,.numberTemp{
+    text-align: right;
+}

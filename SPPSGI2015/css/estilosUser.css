@@ -1,0 +1,6 @@
+.footerFixed{
+    z-index: 1000;
+    position: fixed;
+    bottom: 0px;
+    margin-left: 0px;    
+}

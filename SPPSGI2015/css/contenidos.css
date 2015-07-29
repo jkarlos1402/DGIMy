@@ -1,0 +1,148 @@
+
+.Estiloppizq {color: #666666;font-size: 9px;}/*pie de pagina izquierdo*/
+.Estiloppder {color: #666666;font-size: 9px; }/*pie de pagina derecho*/
+
+.Estiloppizqb {color: #CCCCCC;font-size: 9px; font-weight: bold;}/*pie de pagina izquierdo*/
+
+.cajapieizq { float:left; width:350px; height:95px; margin:10px; text-align:right; }
+.cajapieder { float:left; width:350px; height:95px; margin:10px; text-align:left; }
+
+.cajapencder { float:right; width:390px; height:40px; margin:0px; text-align:right; z-index: 0; }
+
+.ppag {text-align: center; background-repeat:no-repeat; width:auto; height:40px; }
+
+
+.Txt {  font-family:Arial, Helvetica, sans-serif; font-size:14px; margin-right:2px; border-style:solid; border:1px; border-color:#CCCCCC; }
+
+.TxtInactivo {  
+font-family:Arial, Helvetica, sans-serif; 
+font-size:9pt; 
+margin-right:2px; border-style:solid; 
+border:1px; 
+border-color:#CCCCCC;
+background-color:#f0f0f0; 
+}
+
+.CajaInactiva{ 
+background-color:#f0f0f0; 
+border-style:solid; 
+border:1px; 
+border-color:#CCCCCC; 
+padding:1px;
+}
+
+.Cierre{ 
+background-color:#ccc;
+color:#990000; 
+border-style:solid; 
+border:1px; 
+border-color:#990000;
+font-size:14px;
+padding:10px; 
+width:auto;
+}
+
+.TxtNum {  
+text-align:right;
+font-family:Arial, serif; 
+font-size:9pt; 
+padding-right:5px;
+border:1px solid #999; 
+}
+
+.TxtNumE {  
+text-align:right;
+font-family:Arial, serif; 
+font-size:9pt; 
+padding-right:5px;
+border:1px solid #999; 
+background-color:#E0F8E0;
+}
+
+.TxtNumA {  
+text-align:right;
+font-family:Arial, serif; 
+font-size:9pt; 
+padding-right:5px;
+border:1px solid #999; 
+background-color:#FFCCCC;
+}
+
+.TxtNumInactivo {  
+text-align:right;
+font-family:Arial, serif; 
+font-size:9pt; 
+padding-right:5px;
+border:1px solid #CCC; 
+background-color:#f0f0f0;
+}
+
+input {
+/*background: #FFFFFF;
+background-color: transparent;*/
+background-image:url(../img/Fnd_2.png);
+border: 1px solid #666666;  /*2F4F4F*/
+text-align: left;
+height:14pt;
+font-size: 9pt;
+font-family: Arial, serif;
+font-weight: normal;
+}
+
+input.button {
+font-family:Arial, Helvetica, sans-serif;
+padding:0 4px;
+font-size: 12px;
+text-align:center;
+width:130px;
+height:20px;
+color: #FFFFFF;
+
+background-image:url(../img/Fnd_2.png);
+border:#ccc solid 1px;
+}
+
+.radio {
+width:30px;
+background-color:transparent;
+border-color:transparent;
+/*
+border-width:thick;
+border-style:solid;
+*/
+}
+
+select {
+width:auto;
+height:auto;
+font-size:8pt;
+font-family:Arial, serif;
+
+
+
+color: #000000; 
+border: #000099; 
+border-style: solid; 
+border: 1px; 
+
+
+}
+
+textarea{
+font-family: Arial, serif;
+font-size: 8pt;
+background-image:url(../img/Fnd_2.png);
+background-repeat: repeat-x;
+background-position:bottom;
+border: 1px solid #666666; /*C8CFC8*/
+
+scrollbar-arrow-color: #006600;
+
+
+} 
+
+img.valign {
+   height: 100%;
+   vertical-align: middle;
+   width: 0px;
+} 

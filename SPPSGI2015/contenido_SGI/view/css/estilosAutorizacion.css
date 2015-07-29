@@ -1,0 +1,49 @@
+label{
+    padding-left: 5px;
+}
+.label1{
+    width: 95px;
+}
+.labelCenter{
+    width: 160px;
+    padding-left: 0px;
+}
+select{
+    min-width: 200px;
+    max-width: 200px;        
+}
+
+.ui-menu-item{
+    font-size: 11px;
+}   
+.ui-button-text{
+    font-size: 12px;
+}
+
+#DocumentoF{
+    font-size: 80.5%;
+}
+
+#DocumentoF .label1{
+    width: 70px;
+    margin-left: 5px;
+}
+
+#DocumentoF .top{
+    vertical-align: top;
+}
+
+#DocumentoF input{
+    width: 300px;
+}
+#DocumentoF textarea {
+    width: 300px;
+}
+#DocumentoF .textareaLong {
+    width: 695px;
+}
+
+#tablaBodyOfis{
+    max-height: 30px;
+    
+}

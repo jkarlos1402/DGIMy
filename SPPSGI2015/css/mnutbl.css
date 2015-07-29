@@ -1,0 +1,70 @@
+.tblmnu {
+	background-color: #F3F6EC;
+	border: 1;
+	color: #999999;
+	font-family: arial, helvetica, sans-serif;
+	font-size: 10px;
+	text-align: center;
+}
+
+.tblmnu a:link, table a:visited, table a:active {
+	background-color: transparent;
+	color: #0096BD; 
+	text-decoration: none;
+}
+
+.tblmnu a:hover {
+	background: url(../img/bg_mnuizq8.jpg); background-repeat:repeat-x;  /* fnd_nav_mnu */
+	color: #f0f0f0;
+	text-decoration: none;
+}
+
+.tblmnu caption {
+	background-color: transparent;
+	color: #67BD2A;
+	font-family: Georgia, serif;
+	font-size: 12px;
+	padding-bottom: 12px;
+	padding-left: 8px;
+	text-align: left;
+}
+
+.tblmnu, td, th {
+	margin: 0;
+	padding: 0;
+}
+
+.tblmnu tbody td, tbody th {
+	background-color: #FFFFFF; /* D6F2C3*/
+	border-bottom: 1px solid #B3DE94;
+	border-top: 0px solid #FFFFFF;
+	padding: 1px;
+}
+
+.tblmnu tbody tr.odd th, tbody tr.odd td {
+	background-color: #C8EDAE;
+	border-bottom: 2px solid #67BD2A;
+}
+
+.tblmnu tbody tr:hover td, tbody tr:hover th {
+	background-color: #fff; /* BAE899 */
+}
+
+.tblmnu td, th {
+	vertical-align: middle;
+	text-align:center;
+}
+
+.tblmnu tfoot td, tfoot th {
+	font-weight: bold;
+	padding: 4px 8px 6px 9px;
+}
+
+.tblmnu thead th {
+	font-family: arial, helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 19px;
+	padding: 0px 10px 2px 10px;
+	white-space: nowrap;
+}

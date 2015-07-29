@@ -1,0 +1,114 @@
+ 		.tabla1 {
+			font: 11px  arial,verdana,verdana;
+			margin: 0;
+			padding: 0;
+			margin-left:10px;	
+			border-collapse: collapse;
+			text-align: left;
+			color: #000000;/*333*/
+			line-height: 12px;
+		}
+		
+		.tabla1 caption {
+			font-size: 12px;
+			font-weight: bold;
+			margin-bottom: 10px;
+			text-align: center;
+			/*text-transform: uppercase;*/
+		}
+		
+		.tabla1 td {
+			margin: 0;
+			padding: 2px 2px;
+			border: 1px solid #CCCCCC; 
+/*			background-color:#fff;*/
+		}
+		
+		
+		.tabla1 thead tr th {
+			background-color:#660033;  /*  680C1C              4D4F50  99BCBF*/
+			color:#FFFFFF;
+			padding:  2px 2px;			
+			font-weight: bold;
+			border-left: 1px solid #f0f0f0;
+			border-right: 1px solid #f0f0f0;
+			border-bottom: 1px solid #999;
+			text-transform: uppercase;
+			text-align:center;
+			background-image:url(../img/bg.png);
+			background-repeat:repeat-x;
+			background-position:bottom;
+		}
+		
+		.tabla1 tfoot tr th, tfoot tr td {
+			padding:  0px;
+			color: #CCCCC;
+			font: 6pt  arial,verdana,verdana;
+			border-top: 1px solid #000;
+		}
+
+		.tabla1 tfoot td:hover {
+			color: #990000;
+			font-weight: bold;
+		}
+				
+		.tabla1 tbody tr th {
+			padding: 2px 2px;
+			border-bottom: 1px dotted #fafafa;
+		}
+		
+		.tabla1 tr { 
+			background-color: #F0F1EC;  /* F5F5DC    F7FBEF  E9EEF2    E9EEF2 FBFDF6 */
+		}
+		.tabla1 tr.odd {
+			background-color: #EDF7DC;
+		}
+				
+		.tabla1 tr:hover , tr:hover td a, tr:hover th a {
+			background-color:#FFFFFF;
+			color: #680C1C;		
+		}
+		
+		.tabla1 td:hover {
+			background-color:#F5F5DC; /*003333*/
+			color: #680C1C;
+		}
+
+		.tabla1 tr:hover th a:hover {
+			background-color: #F5DEB3; /* F7FBEF;*/
+			border-bottom: 2px solid #86C200;
+		}
+		
+		.tabla1 table a {
+			color: #608117;
+			background-image: none;
+			text-decoration: none;
+			border-bottom: 1px dotted #8A8F95;
+			padding: 2px;
+			padding-right: 12px; 
+			
+		}
+
+		.tabla1 table a:hover {
+			color: #BBC4CD;
+			background-image: none;
+			text-decoration: none;
+			border-bottom: 3px solid #333;
+			padding: 2px;
+			padding-right: 12px; color: #A2A2A2; 
+		}
+		
+		.tabla1 a:visited {
+			text-decoration: none;
+			border-bottom: 1px dotted #333;
+			text-decoration: none;
+			padding-right: 12px; color: #A2A2A2; 
+		}
+		
+		.tabla1 a:visited:hover {
+			background-image: none;
+			text-decoration: none;
+			border-bottom: 3px solid #333;
+			padding: 2px;
+			padding-right: 12px; color: #A2A2A2; 
+		}
